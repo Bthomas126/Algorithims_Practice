@@ -18,9 +18,13 @@ void mergeSort(int arr[], int size)
 
 void merge(int arr[], int leftSize, int rightSize)
 {
-    int left;
-    int right;
-    int merged;
+    int left = 0;
+    int right = 0;
+    int merged = 0;
+
+    int totalsize = leftSize + rightSize;
+
+    int temp* = new int[totalsize];
 }
 
 int main()
